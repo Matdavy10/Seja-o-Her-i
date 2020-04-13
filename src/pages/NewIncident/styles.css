@@ -1,0 +1,109 @@
+.incident-container{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+
+}
+.incident-container header{
+    display: flex;
+    align-items: center;
+
+}
+.incident-container header span{
+    font-size: 20px;
+    margin-left: 24px
+}
+.incident-container header img{
+    height: 64px;
+}
+.incident-container header a{
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0;
+}
+.incident-container header button{
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid;
+    background: transparent;
+    margin-left: 16px;
+    transition: border-color 0.2s;
+
+}
+
+.incident-container header button:hover{
+    border-color: #999;
+}
+.incident-container h1{
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.incident-container ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+.incident-container ul li{
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+
+}
+.incident-container ul li button{
+    background-color: #ffffff;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border:0;
+}
+.incident-container ul li button:hover{
+    opacity: 0.8;
+}
+.incident-container ul li strong{
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+.description{
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button-cancelar{
+    width: 30%;
+    height: 60px;
+    background: #ffff;
+    border: 0;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 16px;
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    border-radius: 5px;
+    transition: filter 0.2s;
+    
+}
+.button-cadastrar{
+    width: 68%;
+    height: 60px;
+    background: #e02041;
+    border: 0;
+    color: #ffffffff;
+    font-weight: 700;
+    margin-top: 16px;
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    border-radius: 5px;
+    transition: filter 0.2s;
+    margin-left:10px;
+}
